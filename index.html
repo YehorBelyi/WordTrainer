@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/image.ico">
+    <title>Перекладач</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="word-card">
+            <p>Words to guess</p>
+        </div>
+        <div class="control-buttons">
+            <div class="arrow left">
+                <img src="./images/arrow_back.png" alt="arrow_back">
+            </div>
+            <div class="word-count">
+                <p>0/0</p>
+            </div>
+            <div class="arrow right">
+                <img src="images/arrow_forward.png" alt="arrow_forward">
+            </div>
+        </div>
+        <div class="user-guess">
+            <input type="text" name="" id="" placeholder="Ваш переклад">
+        </div>
+        <hr>
+        <div class="user-info">
+            <div class="stats">
+                <h2>Статистика</h2>
+            </div>
+            <div class="answers">
+                <div class="right-answer">
+                    <p>Вірно</p>
+                    <p>0</p>
+                </div>
+                <div class="wrong-answer">
+                    <p>Невірно</p>
+                    <p>0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

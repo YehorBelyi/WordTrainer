@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.word-card {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.control-buttons {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrow img {
+    height: 30px;
+    width: 30px;
+    transition: 0.2s;
+}
+
+.arrow img:hover {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: lightgray;
+}
+
+.user-guess input {
+    text-align: center;
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.user-info {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    border-top: 4px dashed black;
+}
+
+.answers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-answer {
+    color: green;
+}
+
+.wrong-answer {
+    color: red;
+}
+
+@media (min-width: 400px) {
+    .container {
+        width: 350px;
+    }
+    .word-card {
+        width: 300px;
+    }
+    .control-buttons {
+        width: 200px;
+    }
+    .user-info {
+        width: 300px;
+    }
+
+    .user-guess input {
+        width: 250px;
+    }
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 550px;
+    }
+
+    .word-card {
+        width: 500px;
+    }
+
+    .control-buttons {
+        width: 400px;
+    }
+
+    .user-info {
+        width: 350px;
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 750px;
+    }
+
+    .word-card {
+        width: 600px;
+    }
+
+    .control-buttons {
+        width: 500px;
+    }
+
+    .user-info {
+        width: 400px;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 800px;
+    }
+
+    .word-card {
+        width: 600px;
+    }
+
+    .control-buttons {
+        width: 500px;
+    }
+
+    .user-info {
+        width: 400px;
+    }
+}
